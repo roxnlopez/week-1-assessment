@@ -56,22 +56,38 @@ body {
 
 .header {
 	float: right;
+	padding-top: 10px;
+	padding-right: 80px;
 	border: 1px solid purple;
 }
 
 #login {
 	float: right;
-	padding-left: 1em;
+	padding-left: 33px;
 }
 
 button {
-	background-color: color: #125698;
+	background-color: #125698;
 	background-image: url("images/home.png");
 	background-repeat: no-repeat;
-	font-size: 20px;
+	font-size: 27px;
 	float: right;
 	justify-content: space-around;
-	margin: 20px;
+	margin: 15px 10px 15px 30px;
+	color: white;
+}
+
+.paragraph {
+	border: 1px solid red;
+	position: relative;
+ 	padding: 160px 100px 28px 80px;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 20px;
+}
+
+.first {
+	font-size: 30px; 
+	color: #125698
 }
 
 footer {

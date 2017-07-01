@@ -1,17 +1,27 @@
 body {
-	background-image: url("../images/bgtile.png");
+	background-image: url("images/bgtile.png");
 	background-repeat: repeat-x;
-
 }
 
+header {
+	float: right;
+	padding-top: 7em;
+	padding-right: 15em;
+}
 button {
 	background-color: blue;
-
+	background-image: url("images/home.png");
+	background-repeat: no-repeat;
+	font-size: 20px;
+	float: right;
+	justify-content: space-around;
 }
 
 section {
-
-
+   -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1
+    clear: left;
 }
 
 footer {
@@ -24,3 +34,11 @@ ul {
 	justify-content: space-around;
 }
 
+.phone {
+	padding-top: 5em;
+	padding-left: 10em;
+}
+
+.frame {
+
+}

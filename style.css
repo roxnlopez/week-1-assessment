@@ -1,6 +1,9 @@
 body {
 	background-image: url("images/bgtile.png");
 	background-repeat: repeat-x;
+	box-shadow: 0px 10px 5px #888888;
+	border-radius: 5px;
+	position: relative;
 }
 
 header {
@@ -18,10 +21,8 @@ button {
 }
 
 section {
-   -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1
-    clear: left;
+	padding-left: 40em;
+	display: flex;
 }
 
 footer {
@@ -37,8 +38,4 @@ ul {
 .phone {
 	padding-top: 5em;
 	padding-left: 10em;
-}
-
-.frame {
-
 }

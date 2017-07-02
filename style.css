@@ -60,11 +60,13 @@ body {
 	float: right;
 	padding-left: 30px;
 	margin-left: 100px;
+	vertical-align: middle;
 }
 
 button {
 	background-color: #125698;
 	background-image: url("images/home.png");
+	background-position: left;
 	background-repeat: no-repeat;
 	font-size: 27px;
 	clear: left;

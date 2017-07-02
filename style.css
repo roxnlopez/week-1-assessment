@@ -80,8 +80,9 @@ button {
  	background-color: white;
  	font-family: 'Source Sans Pro', sans-serif;
  	font-size: 20px;
-	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+	box-shadow: -60px -160px 80px -90px #125698, 60px -160px 80px -90px #125698;
 	border-radius: 8px;
+	z-index: -1;
  }
 
 .first {
@@ -94,10 +95,10 @@ footer {
 }
 
 ul {
-	width: 80%;
+	width: 90%;
 	list-style-type: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	text-transform: uppercase;
 }
 
